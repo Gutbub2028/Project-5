@@ -1,13 +1,18 @@
 body{
     background:#002455 ;
-    background-size: cover;
-    border: 4px solid white;
-    border-radius: 8px;
+    background-size: 600px;
     display: flex;
+    color: white;
     align-items: center;
     justify-content: center;
-    color: white;
+    text-align: center;
 }
-#c{
-    display:block;
+
+button{
+    justify-content: space-around;
+}
+#a{
+    justify-content: space-around;
+    margin-right: 30px ;
+    text-align: center;
 }
