@@ -31,8 +31,6 @@ function save(){
     count1=0
     count2=0
     document.getElementById("lastResult").innerText=avet
-}
-function reset(){
-    document.getElementById("Home").innerHTML=0
-    document.getElementById("Guest").innerHTML=0
+    document.getElementById("Home").innerHTML=count1
+    document.getElementById("Guest").innerHTML=count2
 }
